@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8214A47D18AB7BBF00BFBD42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8214A47C18AB7BBF00BFBD42 /* Images.xcassets */; };
 		824AFC4618AB6F4400D2BEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC4518AB6F4400D2BEC9 /* Foundation.framework */; };
 		824AFC4818AB6F4400D2BEC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC4718AB6F4400D2BEC9 /* CoreGraphics.framework */; };
 		824AFC4A18AB6F4400D2BEC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC4918AB6F4400D2BEC9 /* UIKit.framework */; };
@@ -14,10 +15,8 @@
 		824AFC5218AB6F4400D2BEC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 824AFC5118AB6F4400D2BEC9 /* main.m */; };
 		824AFC5618AB6F4400D2BEC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 824AFC5518AB6F4400D2BEC9 /* AppDelegate.m */; };
 		824AFC5918AB6F4400D2BEC9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824AFC5718AB6F4400D2BEC9 /* Main_iPhone.storyboard */; };
-		824AFC5C18AB6F4400D2BEC9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824AFC5A18AB6F4400D2BEC9 /* Main_iPad.storyboard */; };
 		824AFC5F18AB6F4400D2BEC9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824AFC5E18AB6F4400D2BEC9 /* FirstViewController.m */; };
 		824AFC6218AB6F4400D2BEC9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 824AFC6118AB6F4400D2BEC9 /* SecondViewController.m */; };
-		824AFC6418AB6F4400D2BEC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824AFC6318AB6F4400D2BEC9 /* Images.xcassets */; };
 		824AFC6B18AB6F4400D2BEC9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC6A18AB6F4400D2BEC9 /* XCTest.framework */; };
 		824AFC6C18AB6F4400D2BEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC4518AB6F4400D2BEC9 /* Foundation.framework */; };
 		824AFC6D18AB6F4400D2BEC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824AFC4918AB6F4400D2BEC9 /* UIKit.framework */; };
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8214A47C18AB7BBF00BFBD42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		824AFC4218AB6F4400D2BEC9 /* Jrabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jrabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		824AFC4518AB6F4400D2BEC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		824AFC4718AB6F4400D2BEC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +47,10 @@
 		824AFC5418AB6F4400D2BEC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		824AFC5518AB6F4400D2BEC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		824AFC5818AB6F4400D2BEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		824AFC5B18AB6F4400D2BEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		824AFC5D18AB6F4400D2BEC9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		824AFC5E18AB6F4400D2BEC9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		824AFC6018AB6F4400D2BEC9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		824AFC6118AB6F4400D2BEC9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		824AFC6318AB6F4400D2BEC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		824AFC6918AB6F4400D2BEC9 /* JrabbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JrabbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		824AFC6A18AB6F4400D2BEC9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		824AFC7218AB6F4400D2BEC9 /* JrabbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JrabbitTests-Info.plist"; sourceTree = "<group>"; };
@@ -120,12 +118,11 @@
 				824AFC5418AB6F4400D2BEC9 /* AppDelegate.h */,
 				824AFC5518AB6F4400D2BEC9 /* AppDelegate.m */,
 				824AFC5718AB6F4400D2BEC9 /* Main_iPhone.storyboard */,
-				824AFC5A18AB6F4400D2BEC9 /* Main_iPad.storyboard */,
 				824AFC5D18AB6F4400D2BEC9 /* FirstViewController.h */,
 				824AFC5E18AB6F4400D2BEC9 /* FirstViewController.m */,
 				824AFC6018AB6F4400D2BEC9 /* SecondViewController.h */,
 				824AFC6118AB6F4400D2BEC9 /* SecondViewController.m */,
-				824AFC6318AB6F4400D2BEC9 /* Images.xcassets */,
+				8214A47C18AB7BBF00BFBD42 /* Images.xcassets */,
 				824AFC4C18AB6F4400D2BEC9 /* Supporting Files */,
 			);
 			path = Jrabbit;
@@ -236,8 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824AFC5C18AB6F4400D2BEC9 /* Main_iPad.storyboard in Resources */,
-				824AFC6418AB6F4400D2BEC9 /* Images.xcassets in Resources */,
+				8214A47D18AB7BBF00BFBD42 /* Images.xcassets in Resources */,
 				824AFC5918AB6F4400D2BEC9 /* Main_iPhone.storyboard in Resources */,
 				824AFC5018AB6F4400D2BEC9 /* InfoPlist.strings in Resources */,
 			);
@@ -298,14 +294,6 @@
 				824AFC5818AB6F4400D2BEC9 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		824AFC5A18AB6F4400D2BEC9 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				824AFC5B18AB6F4400D2BEC9 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		824AFC7318AB6F4400D2BEC9 /* InfoPlist.strings */ = {
@@ -402,6 +390,7 @@
 				GCC_PREFIX_HEADER = "Jrabbit/Jrabbit-Prefix.pch";
 				INFOPLIST_FILE = "Jrabbit/Jrabbit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,6 +404,7 @@
 				GCC_PREFIX_HEADER = "Jrabbit/Jrabbit-Prefix.pch";
 				INFOPLIST_FILE = "Jrabbit/Jrabbit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -480,6 +470,7 @@
 				824AFC7C18AB6F4400D2BEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		824AFC7D18AB6F4400D2BEC9 /* Build configuration list for PBXNativeTarget "JrabbitTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +479,7 @@
 				824AFC7F18AB6F4400D2BEC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
